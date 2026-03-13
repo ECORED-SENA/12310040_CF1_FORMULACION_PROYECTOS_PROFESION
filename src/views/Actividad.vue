@@ -17,39 +17,40 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Identificación de conceptos y procesos para la formulación de proyectos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> identificar y reconocer los conceptos fundamentales, los elementos básicos y las fases del ciclo de vida del proyecto, como base para comprender los procesos necesarios en la formulación de un proyecto.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'Un proyecto se caracteriza principalmente por:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ser una actividad permanente dentro de una organización.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Tener un inicio y un cierre definidos y un propósito específico.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ejecutarse únicamente con recursos financieros.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No requerir planeación previa.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +59,29 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: 'La necesidad o problema se define como:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El resultado final del proyecto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una actividad programada dentro del cronograma.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'La situación que da origen a la formulación del proyecto.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un recurso indispensable para la ejecución.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +90,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál es la función del objetivo general dentro de un proyecto?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Describir cada una de las actividades.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Establecer el propósito principal del proyecto.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Determinar el presupuesto disponible.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Definir los responsables del proyecto.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +121,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'La justificación de un proyecto permite:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Definir los tiempos de ejecución.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Explicar la importancia y los beneficios del proyecto.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Identificar las fases del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Establecer el cronograma de actividades.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +151,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: 'El alcance del proyecto se relaciona con:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Los recursos financieros disponibles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Los beneficiarios del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'La delimitación de lo que incluye y excluye el proyecto.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La evaluación final de los resultados.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +181,29 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'Los recursos de un proyecto corresponden a:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Únicamente los recursos humanos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Los resultados obtenidos al finalizar el proyecto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Los medios humanos, técnicos, materiales y financieros necesarios para su desarrollo.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Las fases del ciclo de vida del proyecto.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +212,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Cuál es la finalidad de estructurar el proyecto en fases?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ejecutar actividades de manera improvisada.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Organizar el desarrollo del proyecto de forma lógica y secuencial.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Reducir la necesidad de planeación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar la identificación de requerimientos.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +243,29 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: 'En la fase de inicio del proyecto se realiza principalmente:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La ejecución de las actividades.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El control de los recursos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'La identificación de la necesidad y el propósito del proyecto.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La entrega de los resultados finales.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +274,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'La fase de planeación del proyecto se caracteriza por:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'La definición de objetivos, actividades y recursos.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'La finalización formal del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La supervisión de los resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La identificación de beneficiarios.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +304,29 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué se busca en la fase de cierre del proyecto?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Iniciar una nueva fase de planeación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ejecutar actividades pendientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Formalizar la finalización del proyecto y revisar los resultados obtenidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Identificar nuevas necesidades.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +335,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: 'El pensamiento proyectual se define como:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'La ejecución inmediata sin análisis estructurado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La repetición constante de actividades rutinarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un enfoque organizado para estructurar soluciones.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La improvisación continua en el desarrollo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +365,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: 'Un beneficio de la formulación de proyectos es:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Evitar la planificación de actividades futuras.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Fortalecer el análisis y organización de ideas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar la necesidad de definir objetivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la identificación de recursos básicos.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +395,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'Los requerimientos de negocio permiten:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Definir objetivos estratégicos organizacionales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Establecer únicamente el presupuesto final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Describir tareas técnicas detalladas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar el cierre administrativo del proyecto.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +425,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'Los requerimientos funcionales especifican:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'El perfil profesional del equipo ejecutor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Las condiciones económicas del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las funciones que debe cumplir el sistema.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Los tiempos de entrega de informes finales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,20 +455,179 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: 'Un proyecto social se caracteriza por:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Buscar rentabilidad económica inmediata.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Optimizar procesos técnicos internos.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Generar impacto positivo en la comunidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir costos administrativos empresariales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'Los interesados del proyecto son:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo los miembros del equipo técnico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Personas o grupos afectados por el proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Exclusivamente los responsables financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Únicamente los beneficiarios finales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: 'Un hito del proyecto permite:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Modificar el objetivo general planteado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar actividades previamente definidas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Verificar avances significativos del proceso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar el presupuesto asignado inicialmente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: 'El ciclo de vida del proyecto comprende:',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diagnóstico y evaluación permanente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ejecución sin fases estructuradas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Planeación y control exclusivamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Inicio, planificación, ejecución y cierre.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: 'Un error frecuente en la formulación es:',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Definir claramente la necesidad inicial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mantener coherencia entre actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Delimitar correctamente el alcance.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No identificar claramente el problema.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: 'Una buena práctica en la formulación consiste en:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Omitir la revisión de la propuesta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Plantear objetivos ambiguos y generales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar la identificación de recursos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mantener coherencia entre los elementos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
