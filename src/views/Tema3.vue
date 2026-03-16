@@ -81,7 +81,7 @@
             .col-xl.col-md-10.espacio___movil_3
               p.mb-0 Desde la formación complementaria, los diagramas de flujo se emplean como un recurso conceptual que fortalece la comprensión estructurada del proyecto, sin profundizar en aspectos técnicos propios de la ejecución. Su función principal es apoyar la identificación, organización y articulación de las fases y actividades que integran la propuesta.
     
-    p.mb-5 A continuación. se presentan los aspectos relacionados con la importancia, relación, apoyo, beneficios y aplicación formativa de los diagramas de flujo en la formulación de proyectos.
+    p.mb-5 A continuación. Se presentan los aspectos relacionados con la importancia, relación, apoyo, beneficios y aplicación formativa de los diagramas de flujo en la formulación de proyectos.
 
     .bg--img_03.mb-5
       .row.h-100.align-items-center
@@ -139,7 +139,7 @@
             .col-auto(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/img87.png', alt='' style="width: 300px").m-auto
-            .col-lg.espacio___movil_3
+            .col-lg.espacio___movil_3.fit___left
               h3 Análisis del contexto profesional
               p.mb-0 Permite comprender las condiciones en las que surge la necesidad identificada. Puede incluir factores técnicos, organizacionales, sociales o económicos que influyen en la estructuración del proyecto. Este análisis favorece la pertinencia de la propuesta y contribuye a delimitar su alcance.
           .row
@@ -153,7 +153,7 @@
             .col-auto(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/img89.png', alt='' style="width: 300px").m-auto
-            .col-lg.espacio___movil_3
+            .col-lg.espacio___movil_3.fit___left
               h3 Justificación del proyecto
               p.mb-0 Consiste en argumentar las razones por las cuales el proyecto debe desarrollarse. Explica su importancia y su aporte al contexto profesional, fortaleciendo la relación entre la necesidad identificada y la solución planteada.
           .row
@@ -167,7 +167,7 @@
             .col-auto(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/img91.png', alt='' style="width: 300px").m-auto
-            .col-lg.espacio___movil_3
+            .col-lg.espacio___movil_3.fit___left
               h3 Identificación general de actividades
               p.mb-0 Corresponde a la definición organizada de las acciones necesarias para alcanzar los objetivos. En esta etapa se plantean de manera general, sin profundizar en aspectos operativos, permitiendo comprender el proyecto como un proceso estructurado.
           .row
@@ -322,7 +322,7 @@
             .row(titulo="Uso de herramientas de apoyo conceptual").ajuste-cajaAcordion
               p.mb-3 Emplear esquemas, mapas mentales o diagramas de flujo facilita la organización de la información y la estructuración lógica del proyecto. Estas herramientas apoyan la comprensión sin profundizar en aspectos técnicos de ejecución.
             .row(titulo="Revisión y reflexión sobre la formulación").ajuste-cajaAcordion
-              p.mb-3Revisar la propuesta permite identificar inconsistencias, mejorar la claridad y fortalecer la coherencia interna del proyecto. Esta práctica promueve una actitud reflexiva frente al proceso de formulación.
+              p.mb-3Revisar Revisar la propuesta permite identificar inconsistencias, mejorar la claridad y fortalecer la coherencia interna del proyecto. Esta práctica promueve una actitud reflexiva frente al proceso de formulación.
         .col-xl-auto
           figure(data-aos="fade-left").d-none.d-xl-block
             img(src="@/assets/curso/temas/img104.png", alt="" ).m-auto
