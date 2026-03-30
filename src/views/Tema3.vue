@@ -189,10 +189,22 @@
 
     p.mb-5 A continuación, se presenta un pódcast que explica la importancia de la metodología en la formulación de proyectos, destacando su aporte en la organización, coherencia y pertinencia de las propuestas dentro del contexto formativo y profesional.
 
-    figure(data-aos="zoom-in").mb-0
-      .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") #[b Video]: importancia de la metodología en la formulación de proyectos.
+    .row.align-items-center.m-0.mb-0
+      .col-xl
+        .row.align-items-center.justify-content-center.box___style_10(data-aos="zoom-in")
+          .col-auto.mb-4.mb-lg-0
+            figure(data-aos="fade-right")
+              img(src="@/assets/curso/temas/img105.svg" style="max-width: 220px").m-auto
+          .col
+            h4.mb-4 Pódcast
+            TarjetaAudio.color-acento-contenido.mb-3(
+              texto="Formulación de proyectos en mi profesión"
+              :audio="require('@/assets/componentes/audios/podcast_formulacion_de_proyectos.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
+      .col-xl-auto.d-none.d-xl-block
+        figure(data-aos="fade-left")
+          img(src="@/assets/curso/temas/img101.png" ).m-auto
 
     <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
     Separador
